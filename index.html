@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Le Chalet Maoli</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/3b3e6a93c1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="landing">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">
+            <img
+              src="images/logo-simple.png"
+              alt="Ponton"
+              width="35"
+              class="d-inline-block align-top"
+            />
+            Le Chalet Maoli
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#a-propos">A PROPOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#events">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galerie">GALERIE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="nav navbar-nav navbar-right">
+            <button
+              type="button"
+              class="btn btn-lg navbar-btn navbar-btn-reservez"
+            >
+              RESERVEZ
+            </button>
+          </div> -->
+        </div>
+      </nav>
+
+      <!-- PAGE D'INTRO -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1 id="landing-main-title">
+              Ralentir. <br />
+              Ressentir. <br />
+              Découvrir.
+            </h1>
+            <p id="landing-undertext">
+              Ressourcez-vous dans un cadre incroyablement apaisant : Le Chalet
+              Maoli vous accueille à seulement une heure et demie de Paris, dans
+              un écrin de verdure, en lisière d'un petit bois, à quelques mètres
+              de la Marne.
+            </p>
+          </div>
+        </div>
+
+        <section>
+          <h3 id="landing-undertitle">Réservez maintenant.</h3>
+          <!-- <button type="button" class="landing-button-jy-vais">J'Y VAIS !</button> -->
+        </section>
+      </div>
+
+      <!-- Booking bar -->
+      <div class="section">
+        <div class="row">
+          <div class="booking-form">
+            <form>
+              <div class="row">
+                <div class="col-md-12">
+                  <div id="booking-container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <span class="form-label">Arrivée</span>
+                          <input class="form-control" type="date" required />
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <span class="form-label">Départ</span>
+                          <input class="form-control" type="date" required />
+                        </div>
+                      </div>
+
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          <span class="form-label">Personnes</span>
+                          <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                          </select>
+                          <span class="select-arrow"></span>
+                        </div>
+                      </div>
+
+                      <div class="col-md-2 ms-auto">
+                        <div class="form-btn">
+                          <button class="submit-btn">
+                            Vérifier la disponibilité
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A PROPOS -->
+
+    <section id="a-propos">
+      <div class="col-12 col-md-12 col-lg-8">
+        <h4 class="section-undertitle">A PROPOS</h4>
+        <h2 class="section-title">Composez votre séjour.</h2>
+      </div>
+
+      <div class="row gx-5">
+        <div class="col-lg-6 col-md-8 p3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-md-8 p3">
+          <p>
+            Sollicitudin ac orci phasellus egestas tellus rutrum tellus
+            pellentesque eu. Pharetra magna ac placerat vestibulum lectus mauris
+            ultrices eros. In nulla posuere sollicitudin aliquam ultrices. Enim
+            blandit volutpat maecenas volutpat blandit aliquam etiam erat velit.
+            In iaculis nunc sed augue lacus. Diam maecenas sed enim ut sem. Ac
+            auctor augue mauris augue neque gravida in fermentum et.
+          </p>
+        </div>
+      </div>
+
+      <div class="row gx-5">
+        <div class="col-lg-6 col-md-8 p3">
+          <img
+            class="a-propos-image"
+            src="images/2-About.jpg"
+            alt="Nature"
+            width="100%"
+          />
+        </div>
+
+        <div class="col-lg-6 col-md-8 p3">
+          <img
+            class="a-propos-image"
+            src="images/3-About.jpg"
+            alt="Ponton"
+            width="100%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events">
+      <div class="col-12">
+        <h4 class="section-undertitle">EVENTS</h4>
+        <h2 class="section-title events-text">Entrez dans un monde de fête.</h2>
+        <p class="events-text">
+          Varius duis at consectetur lorem donec massa sapien faucibus et. Donec
+          ultrices tincidunt arcu non. Consectetur adipiscing elit pellentesque
+          habitant morbi tristique senectus et netus. Vulputate ut pharetra sit
+          amet aliquam id diam maecenas. Sociis natoque penatibus et magnis.
+        </p>
+      </div>
+
+      <div
+        id="carousel-events"
+        class="events-carousel slide"
+        data-bs-ride="events-carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carousel-events"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#carousel-events" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carousel-events" data-bs-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/13-Event.jpg" class="events-image" alt="..." />
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/12-Event.jpg" class="events-image" alt="..." />
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/10-Event.jpg" class="events-image" alt="..." />
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carousel-events"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#carousel-events"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+
+    <section id="galerie">
+      <h4 class="section-undertitle">GALERIE</h4>
+      <h2 class="section-title">Galerie</h2>
+
+      <div class="tiles-container">
+        <div class="row tiles">
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-1.jpg" /></div>
+          </div>
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-2.jpg" /></div>
+          </div>
+          <div class="col-xs-4">
+            <div><img alt="" src="images/Tile-3.jpg" /></div>
+          </div>
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-4.JPG" /></div>
+          </div>
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-5.jpg" /></div>
+          </div>
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-6.jpg" /></div>
+          </div>
+          <div class="col-xs-2">
+            <div><img alt="" src="images/Tile-7.jpg" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comment venir -->
+
+    <section id="comment-venir">
+      <div class="col-12 col-md-12 col-lg-8">
+        <h3 class="section-title">Réservez votre séjour au Chalet.</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-8">
+          <p>
+            Varius duis at consectetur lorem donec massa sapien faucibus et.
+            Donec ultrices tincidunt arcu non. Consectetur adipiscing elit
+            pellentesque habitant morbi tristique senectus et netus. Vulputate
+            ut pharetra sit amet aliquam id diam maecenas. Sociis natoque
+            penatibus et magnis.
+          </p>
+
+          <button
+            type="button"
+            class="btn btn-lg navbar-btn navbar-btn-reservez"
+          >
+            RESERVEZ
+          </button>
+        </div>
+
+        <div class="col-lg-6 col-md-8">
+          <div class="wrap-image">
+            <img
+              class="comment-venir-image"
+              src="images/4-About.jpg"
+              alt="Nature"
+              width="100%"
+            />
+            <input
+              type="button"
+              class="comment-venir-link"
+              value="Comment venir ⇀"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>© Copyright 2021 Le Chalet Maoli</p>
+    </footer>
+  </body>
+</html>

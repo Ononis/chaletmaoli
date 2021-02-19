@@ -1,0 +1,393 @@
+/******************MAIN PARTS*******************/
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.section-title {
+  font-size: 3rem;
+  padding-bottom: 1%;
+  color: rgb(20, 56, 20);
+  line-height: 1.5;
+}
+
+.section-undertitle {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(167, 166, 166);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+/******************LANDING PAGE *******************/
+
+#landing {
+  background-image: url("../images/1-Background2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#landing-main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#landing-undertext {
+  color: white;
+  font-size: 1.2rem;
+}
+
+#landing-undertitle {
+  color: white;
+  font-size: 2rem;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+.landing-button-jy-vais {
+  border: 3px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+
+.landing-button-jy-vais:hover {
+  background-color: white;
+  color: rgb(13, 54, 15);
+  font-weight: 600;
+}
+
+.navbar-nav.ms-auto li a {
+  color: rgb(13, 54, 15);
+}
+
+.navbar-nav.ms-auto a:hover {
+  color: #fff;
+}
+
+.navbar {
+  padding: 0 0 5% 0;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(20, 56, 20);
+}
+.navbar-brand:hover {
+  color: rgb(61, 61, 61);
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.navbar-right {
+  padding: 0 12px;
+}
+
+.navbar-btn-reservez {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-color: rgb(13, 54, 15);
+  color: rgb(13, 54, 15);
+  border-radius: 5px;
+}
+
+.navbar-btn-reservez:hover {
+  background-color: rgb(13, 54, 15);
+  color: white;
+  font-weight: 600;
+}
+
+/**********************BOOKING FORM*****************/
+
+#booking-container {
+  background: white;
+}
+
+.booking-form {
+  background: transparent;
+  border-radius: 2px;
+  padding: 0 15% 0 15%;
+  position: absolute;
+  bottom: 0;
+}
+
+.booking-form .form-group {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.booking-form .form-group:after {
+  content: "";
+  background: rgba(129, 131, 144, 0.15);
+  position: absolute;
+  top: 25px;
+  bottom: 0;
+  right: 0px;
+  width: 2px;
+  height: 50px;
+}
+
+.booking-form .form-control {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  height: 25px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #222;
+  font-weight: 400;
+  padding: 0;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+  color: #818390;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+  color: #818390;
+}
+
+.booking-form .form-control::placeholder {
+  color: #818390;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+  color: #818390;
+}
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.booking-form select.form-control + .select-arrow {
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: #818390;
+  font-size: 14px;
+}
+
+.booking-form select.form-control + .select-arrow:after {
+  content: "\279C";
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+  color: rgb(13, 54, 15);
+  display: block;
+  font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.booking-form .form-btn {
+  padding: 0px;
+}
+
+.booking-form .submit-btn {
+  background: rgb(13, 54, 15);
+  border: none;
+  text-transform: capitalize;
+  display: block;
+  border-radius: 2px;
+  height: 88px;
+  padding: 0 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  right: 15%;
+}
+
+/******************A PROPOS*******************/
+
+#a-propos {
+  padding: 5% 15% 5% 15%;
+}
+
+.a-propos-image {
+  padding: 0 0 10px 0;
+  border-radius: 1%;
+}
+
+/******************EVENTS*******************/
+
+#events {
+  padding: 5% 15% 5% 15%;
+  background-color: rgb(13, 54, 15);
+}
+
+.events-text {
+  color: white;
+}
+
+.events-image {
+  width: 60%;
+  border-radius: 1%;
+}
+
+.events-carousel {
+  text-align: center;
+}
+
+/******************GALERIE*******************/
+
+#galerie {
+  padding: 5% 15% 5% 15%;
+}
+
+.tiles-container {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 0 0.5%;
+}
+
+.tiles {
+  counter-reset: cool -1 good -1;
+  padding: 20px 0;
+}
+.tiles > div {
+  margin: 0;
+  padding: 5px;
+}
+.tiles > .col-xs-2 {
+  width: 20%;
+}
+.tiles > .col-xs-4 {
+  width: 40%;
+}
+.tiles > div:nth-of-type(3) > div {
+  margin-bottom: -100%;
+}
+.tiles > div:nth-of-type(7) {
+  margin-left: 40%;
+}
+
+.tiles > div > div {
+  position: relative;
+}
+.tiles > div > div:before {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  left: 8px;
+  position: absolute;
+  top: 2px;
+}
+
+.tiles img {
+  display: block;
+  height: auto;
+  width: 100%;
+  border-radius: 2%;
+}
+
+/******************COMMENT VENIR*******************/
+
+#comment-venir {
+  padding: 5% 15% 5% 15%;
+}
+
+.comment-venir-image {
+  padding: 0 0 10px 0;
+  border-radius: 1%;
+}
+
+.comment-venir-link {
+  background-color: #fff;
+  color: rgb(13, 54, 15);
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  font-size: 1rem;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  z-index: 1;
+  border: none;
+}
+
+.comment-venir-link:hover {
+  background-color: #fff;
+  color: rgb(56, 58, 56);
+  font-weight: 500;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  font-size: 1rem;
+  align-items: center;
+  padding: 1.5rem 1.7rem;
+  z-index: 1;
+  border: none;
+}
+
+.wrap-image {
+  display: inline-block;
+  position: relative;
+}
+
+/******************FOOTER*******************/
+
+#footer {
+  padding: 2% 15% 1% 15%;
+  text-align: center;
+  background-color: rgb(13, 54, 15);
+  color: #fff;
+}
+
+/******************RESPONSIVENESS******************/
+
+@media (max-width: 1050px) {
+  #landing-main-title {
+    text-align: center;
+  }
+
+  #landing-undertext {
+    text-align: center;
+  }
+
+  #landing-undertitle {
+    text-align: center;
+  }
+}
